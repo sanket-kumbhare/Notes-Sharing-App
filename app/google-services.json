@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "89160187571",
+    "project_id": "notes-sharing-f9adc",
+    "storage_bucket": "notes-sharing-f9adc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89160187571:android:2fe8bc8ea211c74d5f7ac6",
+        "android_client_info": {
+          "package_name": "com.project.notessharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89160187571-tbl30khkljat1b2p7fir7h8b548ta5si.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhwKzl42OYiCGpczLOrk5NXG-E2xoekAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89160187571-tbl30khkljat1b2p7fir7h8b548ta5si.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,15 +2,20 @@ package com.project.notessharing;
 
 public class uploadPDF {
 
-    public String message, url;
+    public String name, message, url;
 
-    public uploadPDF() {
 
+    public  uploadPDF() {
     }
 
-    public uploadPDF(String message, String url) {
+    public uploadPDF(String name, String message, String url) {
+        this.name = name;
         this.message = message;
         this.url = url;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public String getMessage() {
@@ -20,5 +25,4 @@ public class uploadPDF {
     public String getUrl() {
         return url;
     }
-
 }

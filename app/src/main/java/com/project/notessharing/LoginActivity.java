@@ -67,7 +67,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                 } else {
 
-                                    Toast.makeText(LoginActivity.this, "Login Failed or User not exist", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(LoginActivity.this, task.getException().getLocalizedMessage(), Toast.LENGTH_SHORT).show();
 
                                 }
                             }
@@ -80,6 +80,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
+                finish();
             }
         });
 

@@ -13,4 +13,8 @@
     <string name="select">Select</string>
     <string name="upload">Upload</string>
     <string name="enter_message">Enter Message</string>
+    <string name="todo">TODO</string>
+    <string name="upload_document">Upload Document</string>
+    <string name="message">message</string>
+    <string name="textview">TextView</string>
 </resources>

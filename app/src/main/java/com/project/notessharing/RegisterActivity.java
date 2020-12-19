@@ -92,13 +92,14 @@ public class RegisterActivity extends AppCompatActivity {
                                         public void onComplete(@NonNull Task<Void> task) {
                                             startActivity(new Intent(RegisterActivity.this, MainActivity.class));
                                             Toast.makeText(getApplicationContext(), "Registered Successfullly", Toast.LENGTH_SHORT).show();
+                                            finish();
                                         }
                                     });
 
 
                                 } else {
 
-                                    Toast.makeText(RegisterActivity.this, "Authentication Failed", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(RegisterActivity.this, task.getException().getLocalizedMessage(), Toast.LENGTH_SHORT).show();
 
                                 }
 
@@ -114,6 +115,7 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+                finish();
             }
         });
 

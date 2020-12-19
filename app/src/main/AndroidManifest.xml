@@ -12,19 +12,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NotesSharing">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".UploadActivity"
+        <activity android:name=".MainActivity2"></activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".UploadActivity"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".LoginActivity"
+        <activity
+            android:name=".LoginActivity"
             android:label="Login"
-            android:windowSoftInputMode="adjustResize" >
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity"
+        <activity
+            android:name=".RegisterActivity"
             android:label="Create Account"
             android:windowSoftInputMode="adjustResize" />
     </application>

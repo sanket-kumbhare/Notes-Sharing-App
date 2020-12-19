@@ -70,6 +70,7 @@
                 android:layout_margin="10dp"
                 android:padding="10dp"
                 android:text="@string/sign_up" />
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
